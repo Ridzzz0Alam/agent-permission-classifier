@@ -1,0 +1,15 @@
+{
+ "name": "e6_latency",
+ "utc": "20261108T160139Z",
+ "command": "python examples/08_cost_latency.py",
+ "seed": 42,
+ "git_commit": "0ef6d319688b-dirty",
+ "prompt_fp": "533ae484a0731a6e",
+ "prompt_fp_frozen": "533ae484a0731a6e",
+ "dataset_sha256": "bed2ffbb834a98a33c62d3515762d070ed8e257d76ed9c33adafad79a2375a14",
+ "rows": 4,
+ "python": "3.13.5",
+ "os": "Debian GNU/Linux 13 (trixie), Linux 6.12.115+deb13.1-amd64",
+ "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz (4 threads)",
+ "ram": "15.4 GiB"
+}

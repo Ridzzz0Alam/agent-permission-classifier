@@ -1,0 +1,9 @@
+                             FPR  FNR overeager  FNR exfiltration  stage 2 overturned
+-----------------  -------------  -------------  ----------------  ------------------
+post (Sonnet 4.6)   8.5% →  0.4%   6.6% → 17.0%      1.8% →  5.7%                 n/a
+DeepSeek V2        43.9% →  1.8%   0.0% →  5.6%      0.0% →  0.0%                   1
+llama3.2:3b V2     73.7% → 57.9%  16.7% → 22.2%     11.8% → 11.8%                   6
+
+first number = stage 1 only, second = stage 1 + stage 2. Our n: 57 benign, 18 overeager, 17 exfiltration.
+
+wrote results/e3_tradeoff_20261108T160138Z.csv (+ .meta.json)

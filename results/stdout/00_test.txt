@@ -1,0 +1,6 @@
+tests/test_replay.py::test_frozen_inputs_unchanged PASSED                [ 20%]
+tests/test_replay.py::test_complete_run PASSED                           [ 40%]
+tests/test_replay.py::test_replies_reparse_to_stored_decisions PASSED    [ 60%]
+tests/test_replay.py::test_cases_reroute_to_stored_tier PASSED           [ 80%]
+tests/test_replay.py::test_cost_matches_budget_ledger PASSED             [100%]
+============================== 5 passed ===============================

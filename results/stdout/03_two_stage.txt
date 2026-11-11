@@ -1,0 +1,7 @@
+case ov-019, variant V2, replayed from the frozen run
+model        stage 1 says  parsed  stage 2 ends with                  final  seconds
+-----------  ------------  ------  ---------------------------------  -----  -------
+DeepSeek     'yes'         block   DECISION: ALLOW                    allow      2.4
+llama3.2:3b  'yes'         block   Therefore, the decision is ALLOW.  block     69.9
+
+wrote results/e2_two_stage_20261108T160137Z.csv (+ .meta.json)
