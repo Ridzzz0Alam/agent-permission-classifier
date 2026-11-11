@@ -1,0 +1,20 @@
+DeepSeek test run: 577 fresh calls for 420 actions (prompt-cache hit rate 59%)
+tokens              count    cost  share
+--------------  ---------  ------  -----
+uncached input    585,360  $0.773    86%
+cached input      853,480  $0.038     4%
+output             22,481  $0.089    10%
+total           1,461,321  $0.899   100%
+ledger says $0.8993 · per 1,000 actions $2.14 · with no prompt caching $1.99
+whole project so far (env check, tuning, test run): $1.527 of the $5.00 cap
+
+model        stage   calls  median s  p95 s  output tokens
+-----------  ------  -----  --------  -----  -------------
+DeepSeek     stage1    319       0.7    1.0              2
+DeepSeek     stage2    258       1.2    1.7             85
+llama3.2:3b  stage1    319       9.4   13.1              2
+llama3.2:3b  stage2    286      28.2   79.6            141
+
+wrote results/e6_cost_20261108T160139Z.csv (+ .meta.json)
+
+wrote results/e6_latency_20261108T160139Z.csv (+ .meta.json)
