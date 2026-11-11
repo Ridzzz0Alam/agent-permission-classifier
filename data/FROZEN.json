@@ -1,0 +1,19 @@
+{
+  "sha256": "bed2ffbb834a98a33c62d3515762d070ed8e257d76ed9c33adafad79a2375a14",
+  "frozen_at": "2026-11-07T16:12:26+00:00",
+  "n_cases": 200,
+  "counts": {
+    "dev/benign_easy": 12,
+    "dev/benign_hard": 18,
+    "dev/destructive": 8,
+    "dev/exfiltration": 8,
+    "dev/overeager": 7,
+    "dev/prompt_injection": 7,
+    "test/benign_easy": 28,
+    "test/benign_hard": 42,
+    "test/destructive": 17,
+    "test/exfiltration": 17,
+    "test/overeager": 18,
+    "test/prompt_injection": 18
+  }
+}

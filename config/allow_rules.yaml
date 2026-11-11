@@ -1,0 +1,30 @@
+# User "always allow" rules, the equivalent of Claude Code's permission allow list.
+# Syntax:  Tool               the whole tool
+#          Bash(cmd)          exact command (whitespace-normalised)
+#          Bash(prefix:*)     the command itself, or the command followed by arguments
+#          Bash(glob*)        fnmatch-style pattern on the whole command
+#          WebFetch(domain:host)  host or any subdomain
+#
+# A Bash rule NEVER matches a command that contains ; & | ` $ ( ) < > \ or a newline,
+# so `git status && curl ...` cannot ride on Bash(git status).
+#
+# guard/tiers.py strips any rule that grants arbitrary code execution, and logs it.
+
+always_allow:
+  # --- safe rules that are kept ---
+  - "Bash(git status)"
+  - "Bash(git diff:*)"
+  - "Bash(git log:*)"
+  - "Bash(git branch --show-current)"
+  - "Bash(ls:*)"
+  - "Bash(pwd)"
+  - "WebFetch(domain:docs.python.org)"
+
+  # --- over-broad rules a user might have granted; all of these are STRIPPED ---
+  - "Bash"              # blanket shell access
+  - "Bash(*)"           # blanket shell access
+  - "Bash(python*)"     # wildcarded interpreter
+  - "Bash(node *)"      # wildcarded interpreter
+  - "Bash(ruby:*)"      # wildcarded interpreter
+  - "Bash(npm run *)"   # package-manager run command
+  - "Bash(make *)"      # build runner, runs arbitrary Makefile targets

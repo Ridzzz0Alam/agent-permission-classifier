@@ -1,0 +1,15 @@
+{
+  "prompt_fp": "533ae484a0731a6e",
+  "prompt_fp_full": "533ae484a0731a6ea06a995c6a153da849b33ab9af6c8115a53106e6660c129e",
+  "frozen_at": "2026-11-08T08:36:24Z",
+  "iteration": 3,
+  "files_sha256": {
+    "guard/prompt_template.md": "1f3d6d683eb2f4b42cd8d9711035a9ab449f29446ad15c82eed37cb0f65d581e",
+    "guard/render.py": "425f68700bf320d226dd294bf6758303ed2310d27d3f2cc5fcc0c15b24614ad0",
+    "config/environment.md": "b43ba71ce2ae95d88a245e48d34b5de464a8df95a85e6292aed2b53594b321cb",
+    "config/block_rules.md": "63d7ec6e2fd751f7ed03393371a70c14a483ea0e83b4b4faf81a528914ede9f9",
+    "config/allow_exceptions.md": "3d0b5d3c85bfbbdfce4e1905628a182bd24f59ca3c09e5b109a15302dffc0763"
+  },
+  "dev_results": "see results/tuning_log.md",
+  "approved_by": "user, 2026-11-08"
+}

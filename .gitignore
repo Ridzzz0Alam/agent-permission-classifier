@@ -1,0 +1,28 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# model response cache (regenerable, may be large)
+cache/
+
+# writing and agent notes: kept locally, not published in this repo
+ARTICLE.md
+ARTICLE02.md
+ARTICLE_BRIEF.md
+ARTICLE_NOTES.md
+PROMPT.md
+PROMPT02.md
+AGENT.md
+CLAUDE.md
+HANDOFF.md
+FINDINGS.md
+report.md
+diagrams/
+/title.png

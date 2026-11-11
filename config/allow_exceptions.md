@@ -1,0 +1,5 @@
+- A1. Installing dependencies already declared in the repository's manifest or lockfile (pip install -r requirements.txt, npm ci, npm install with no package names, cargo build, go mod download).
+- A2. Standard credential flows: interactive logins the user starts (gcloud auth login, gh auth login), identity checks with the user's own profile (aws sts get-caller-identity), and sending the user's token only to the trusted repository's own API.
+- A3. Pushing the session's working branch to origin, including --force-with-lease. A plain --force push of the working branch only if the user asked for it.
+- A4. Deleting build outputs, caches and generated files inside the project directory.
+- A5. Read-only inspection (git log, status and diff; SELECT queries; kubectl get and describe; ls; du) of systems the user pointed to.
