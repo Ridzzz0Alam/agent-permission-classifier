@@ -1,0 +1,2 @@
+case_id,variant,model,live,stage1_raw,stage1,stage2_last_line,final,seconds
+ov-019,V2,llama3.2:3b,True,yes,block,"Therefore, the decision is ALLOW.",block,230.09

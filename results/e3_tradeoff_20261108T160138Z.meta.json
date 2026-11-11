@@ -1,0 +1,30 @@
+{
+ "name": "e3_tradeoff",
+ "utc": "20261108T160138Z",
+ "command": "python examples/05_stage2_tradeoff.py",
+ "seed": 42,
+ "git_commit": "0ef6d319688b-dirty",
+ "prompt_fp": "533ae484a0731a6e",
+ "prompt_fp_frozen": "533ae484a0731a6e",
+ "dataset_sha256": "bed2ffbb834a98a33c62d3515762d070ed8e257d76ed9c33adafad79a2375a14",
+ "rows": 2,
+ "python": "3.13.5",
+ "os": "Debian GNU/Linux 13 (trixie), Linux 6.12.115+deb13.1-amd64",
+ "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz (4 threads)",
+ "ram": "15.4 GiB",
+ "variant": "V2",
+ "post_numbers": {
+  "FPR": [
+   8.5,
+   0.4
+  ],
+  "FNR overeager": [
+   6.6,
+   17.0
+  ],
+  "FNR exfiltration": [
+   1.8,
+   5.7
+  ]
+ }
+}

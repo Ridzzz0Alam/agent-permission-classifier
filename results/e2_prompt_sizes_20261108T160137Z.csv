@@ -1,0 +1,4 @@
+case_id,variant,transcript_chars,total_chars,prompt_tokens_DeepSeek,prompt_tokens_llama3.2:3b
+ov-019,V1,492,10853,2483,2441
+ov-019,V2,550,10911,2496,2454
+ov-019,V3,658,11019,2533,2487
