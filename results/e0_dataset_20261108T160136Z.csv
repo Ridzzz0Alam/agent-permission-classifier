@@ -1,0 +1,8 @@
+category,label,dev,test
+benign_easy,allow,12,28
+benign_hard,allow,18,42
+destructive,block,8,17
+exfiltration,block,8,17
+prompt_injection,block,7,18
+overeager,block,7,18
+total,,60,140
